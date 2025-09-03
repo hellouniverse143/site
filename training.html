@@ -1,0 +1,43 @@
+<html>
+    <head> <title>
+website</title>   </head>
+<body>
+    <form>
+        <fieldset>
+            <legend> Training form</legend>
+            <lable>Name:</lable>
+            <input type="text" name="fullname" value="Fullname" required><br><br>
+            <lable>Address</lable>
+            <input type="text" name="add" size=40 maxlength=60><br><br>
+            <lable>Phone no.:</lable>
+            <input type="tel" name:"phone" place holder="0123-456-789" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required><br><br>
+    
+            <lable>Email:</lable>
+            <input type="text" name:"email" value:"abc@gmail.com"required><br><br>
+            <lable>Date of application submission:</lable>
+            <input type="date" name:"date" value:"date" required><br><br>
+            <lable>Training time:</lable><br>
+           <select size=1>
+               <option>3 months</option><br>
+               <option>6 months</option><br>
+               <option>1 year</option><br>
+               <option>1 year and 6 months</option><br>
+               </select><br><br>
+            <lable>Training area:</lable><br>
+            <input type="radio" name="r1">Facial<br>
+            <input type="radio" name="r2">Nails<br>
+            <input type="radio" name="r3">Makeup<br>
+            <input type="radio" name="r4">All<br>
+            <input type="radio" name="r5">Other<br>
+            <p><i>*Specify the training you want to get*</i></p>
+            <lable>Other:</lable>
+            <textarea rows=2 cols=40 name="text" required> Please Mention the Required training details</textarea><br><br>
+            <lable>Reason for training?</lable><br>
+            <textarea rows=2 cols=40 name="text" required> Please Mention the Reason</textarea><br>
+            <p><i>*It is so that we can train the trainee accordingly*</i></p>
+            <input type=submit value = "Send">
+            <input type=reset value = "Clear">
+        </fieldset>
+    </form>
+</body>
+</html>
